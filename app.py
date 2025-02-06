@@ -35,7 +35,7 @@ bot_active = False
 def keep_alive():
     while True:
         try:
-            requests.get("https://your-render-app-url.onrender.com/ping")
+            requests.get("https://auto-reply-i49c.onrender.com/ping")
             print("Pinged to keep alive.")
         except Exception as e:
             print("Ping failed:", e)
